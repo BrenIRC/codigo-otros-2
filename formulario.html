@@ -11,8 +11,9 @@
 <body>
   <h1>Bienvenidos a mi fiesta</h1>
   <h2>Por favor, confirmar asistencia:</h2>
-
-  <form class="formulario">
+ 
+<!-- Añado id -->
+  <form class="formulario" id="formulario">
     Nombre <input type="text" name="name" id="name">
     <br />
     Edad <input type="number" name="age" id="age">
@@ -31,10 +32,12 @@
 
   <div>
     <h2>Lista de invitados</h2>
-
+    <!-- Añado id de la lista-->
+    <div id="lista-de-invitados"></div>
   </div>
 
-  <script src="../formulario.js"></script>
+<!-- Ajuste la ruta del script -->
+  <script src="./formulario.js"></script>
 </body>
 
 </html>
